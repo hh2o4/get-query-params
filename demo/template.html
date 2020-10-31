@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <style>
+    .wrapper {
+      padding: 40px;
+    }
+    .wrapper > div:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      <h1>请输入网页查询字符串</h1>
+      <div>
+        <input id="urlSearching" type="text">
+        <button id="inputSearching">确认</button>
+      </div>
+    </div>
+    <div>
+      <h1>该网页的全部查询字符串参数</h1>
+      <div id="wholeParams"></div>
+    </div>
+    <div>
+      <h1>指定参数查询字符串为</h1>
+      <div>
+        <input id="param" type="text">
+        <button id="search">查询</button>
+      </div>
+      <div id="partParams"></div>
+    </div>
+  </div>
+</body>
+</html>
