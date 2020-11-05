@@ -9,7 +9,7 @@ module.exports= merge(base, {
     getQueryParams: path.resolve(__dirname, '../src/index.js'),
   },
   output: {
-    filename: '[name].[contenthash].min.js',
+    filename: 'index.js',
     path: path.resolve(__dirname, '../dist')
   },
   plugins: [

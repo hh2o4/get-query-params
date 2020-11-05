@@ -1,7 +1,7 @@
 {
-  "name": "get-query-params",
-  "version": "1.0.0",
-  "description": "easy way to get query params you needed in url\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dthat you needed in url",
+  "name": "get-url-params-in-object",
+  "version": "2.0.0",
+  "description": "easy way to get query params you needed in url",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -16,11 +16,15 @@
     "url",
     "query-string"
   ],
-  "author": "huanghong",
+  "author": "hh2o4 flyaway0821@qq.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hh2o4/get-query-params/issues"
   },
+  "files": [
+    "dist/",
+    "index.js"
+  ],
   "homepage": "https://github.com/hh2o4/get-query-params#readme",
   "devDependencies": {
     "@babel/core": "^7.12.3",
