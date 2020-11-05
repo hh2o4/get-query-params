@@ -10,7 +10,10 @@ module.exports= merge(base, {
   },
   output: {
     filename: 'index.js',
-    path: path.resolve(__dirname, '../dist')
+    path: path.resolve(__dirname, '../dist'),
+    library: 'getQueryParams',
+    libraryTarget: 'umd',
+    // targetExport: 'default'
   },
   plugins: [
     new CleanWebpackPlugin() // 自动清除output定义的path下的内容

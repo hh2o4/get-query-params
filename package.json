@@ -2,7 +2,7 @@
   "name": "get-url-params-in-object",
   "version": "2.0.0",
   "description": "easy way to get query params you needed in url",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/hh2o4/get-query-params.git"
@@ -22,8 +22,7 @@
     "url": "https://github.com/hh2o4/get-query-params/issues"
   },
   "files": [
-    "dist/",
-    "index.js"
+    "dist/"
   ],
   "homepage": "https://github.com/hh2o4/get-query-params#readme",
   "devDependencies": {

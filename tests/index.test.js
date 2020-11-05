@@ -1,4 +1,4 @@
-import { getQueryParams } from '../src/index.js';
+import { getQueryParams } from '../dist/index.js';
 
 test('empty search, and all params', () => {
   let url = 'https://developer.mozilla.org'
